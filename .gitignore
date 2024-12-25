@@ -1,0 +1,8 @@
+node_modules
+bin/*
+videos/*
+output/*
+
+!bin/put_binaries_here_INFO.txt
+!videos/put_your_video_files_here.txt
+!output/edited_videos_will_show_up_here.txt

@@ -1,0 +1,25 @@
+{
+  "name": "bulk-change-default-subtitle-and-audio-tracks",
+  "version": "0.1.0",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/veotaar/bulk-change-default-subtitle-and-audio-tracks"
+  },
+  "scripts": {
+    "list": "node list.js",
+    "edit": "node edit.js"
+  },
+  "keywords": [],
+  "author": {
+    "name": "Veotaar",
+    "url": "https://github.com/veotaar"
+  },
+  "license": "MIT",
+  "description": "",
+  "dependencies": {
+    "fluent-ffmpeg": "^2.1.3"
+  },
+  "devDependencies": {
+    "semistandard": "^17.0.0"
+  }
+}

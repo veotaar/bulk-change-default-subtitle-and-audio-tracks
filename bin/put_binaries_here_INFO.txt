@@ -1,0 +1,2 @@
+put ffmpeg, ffprobe and flvmeta binaries in this directory
+more info: https://www.npmjs.com/package/fluent-ffmpeg

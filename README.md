@@ -1,5 +1,3 @@
-flvtool2 or flvmeta
-
 # bulk-change-default-subtitle-and-audio-tracks
 
 I needed a way to bulk edit default subtitle and audio tracks for video files so I made this to help with that.

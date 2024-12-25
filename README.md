@@ -2,20 +2,20 @@
 
 I needed a way to bulk edit default subtitle and audio tracks for video files so I made this to help with that.
 
-# Use Case
+## Use Case
 
 You have some video files that have multiple audio and subtitle tracks, but the default selected tracks are not the ones you want and you have to change them every time you want to watch those videos. You can use this program to save an edited copy of multiple video files at once, with your preferred audio and subtitle tracks set as default.
 
-# You Might Not Need This
+## You Might Not Need This
 
 Some video players have settings for preferred audio and subtitle languages. If that won't suffice, you can use this program. For example, what if there are multiple English subtitles and you want to select a specific one?
 
-# Prerequisites
+## Prerequisites
 
 - Node.js and npm (tested on Node 23.5.0 on Windows)
 - ffmpeg, ffprobe and flvtool2 or flvmeta binaries in `bin` folder. More info on [fluent-ffmpeg github page](https://github.com/fluent-ffmpeg/node-fluent-ffmpeg).
 
-# Usage
+## Usage
 
 - Clone or download this repository.
 - Put ffmpeg, ffprobe and flvmeta binaries in `bin` directory.
@@ -38,6 +38,6 @@ const PREFERRED_DEFAULT_SUBTITLE_INDEX = 2; // your desired subtitle index
 - Run `npm run edit`
 - Edited video files with your preferences will be copied to the `output` folder.
 
-# ⚠️ Storage Space Warning
+## ⚠️ Storage Space Warning
 
 Make sure to have enough space in your computer. This program will save an edited copy of your videos, not change the videos in-place.
